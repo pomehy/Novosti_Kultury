@@ -10,7 +10,7 @@
 <body>
     <header class="page-header">
         <nav class="header-nav navigation">
-            <a class="logo" href="#">Новости культуры</a>
+            <a class="logo logo--header" href="#">Новости культуры</a>
             <ul class="navigation__list">
                 <li class="navigation__item">
                     <a class="navigation__link" href="#">Новости</a>
@@ -45,6 +45,7 @@
     <main class="page-main">
         <h1 class="visually-hidden">Новости культуры</h1>
         <section class="main-news">
+            <img class="pic-icon" src="/img/pic_icon.svg" alt="иконка изображения" width="55" height="55">
             <h2 class="main-news__title">Подводный отель</h2>
             <p class="main-news__description">
                 Как известно, Дубай – город контрастов. Самые революционные 
@@ -55,62 +56,66 @@
         <section class="reviews">
             <h2 class="reviews__title">Обзоры</h2>
             <ul class="reviews__list">
-                <li class="reviws__item">
+                <li class="reviews__item">
                     <img class="reviews__image" src="img/Monparnas-370x203.jpg" width="370" height="203" alt="«Шальные годы» Монпарнаса">
                     <h3>
                         <a class="reviews__link" href="#">«Шальные годы» Монпарнаса</a>
                     </h3>
                     <p class="reviews__text">
-                        В Музее изобразительных искусств имени Пушкина с 29 сентября по 29 ноября
-                        проходит выставка «Шальные годы Монпарнаса»
+                        В Музее изобразительных искусств имени Пушкина с 29 сентября по 29 ноября проходит выставка «Шальные годы Монпарнаса»                        
                     </p>
                 </li>
-                <li class="reviws__item">
+                <li class="reviews__item">
                     <img class="reviews__image" src="img/anatomia-370x203.jpg" width="370" height="203" alt="Анатомия за 30 секунд">
                     <h3>
                         <a class="reviews__link" href="#">Анатомия за 30 секунд</a>
                     </h3>
-                    <p class="reviews__text">
-                        Сейчас, когда мир открыт нараспашку для человека 
-                        и его познавательных изысканий, интерес 
-                        к научно‑популярной литературе заметно вырос
+                    <p class="reviews__text">Сейчас, когда мир открыт нараспашку для человека и его познавательных изысканий, интерес 
+                        к научно‑популярной литературе заметно вырос                        
                     </p>
                 </li>
-                <li class="reviws__item">
+                <li class="reviews__item">
                     <img class="reviews__image" src="img/fools-370x203.jpg" width="370" height="203" alt="Сферические чудаки">
                     <h3>
                         <a class="reviews__link" href="#">Сферические чудаки</a>
                     </h3>
-                    <p class="reviews__text">
-                        Корреспондентам «Культурного обозревателя» посчастливилось побывать в
-                        театре «Сфера» на премьере спектакля «Чудаки и зануды»
+                    <p class="reviews__text">Корреспондентам «Культурного обозревателя» посчастливилось побывать в
+                        театре «Сфера» на премьере спектакля «Чудаки и зануды»                        
                     </p>
-                </li>
+                </li>                
             </ul>
         </section>
         <section class="promo">
-            <h2 class="promo__title">Абонемент в театр</h2>
+            <h2 class="promo__title">Абонементы в театр</h2>
             <ul class="promo__list">
                 <li class="promo__item">
                     <h3>Скидка 50% на весь сезон 2020</h3>
                     <p>Покупая абонемент на сезон 2020 года вы сэкономите половину стоимости всех спектаклей</p>
-                </li>
+                    <span></span>
+                </li>                
                 <li class="promo__item">
                     <h3>Места у сцены</h3>
                     <p>Только для обладателей абонементов будет возможность сесть поближе к сцене</p>
-                </li>
+                    <span></span>
+                </li>                
                 <li class="promo__item">
                     <h3>Автограф-сессия актёров</h3>
                     <p>После спектаклей у вас будет возможность пообщаться с актёрами и взять у них автограф</p>
                 </li>
             </ul>
-            <a class="promo__link" href="#">Смотреть</a>
+            <div class="promo__button">
+                <a class="promo__link" href="#">Смотреть
+                    <img src="/img/Arrow forward.svg" alt="стрелка вправо" width="24" height="25">
+                </a>
+                
+            </div>
+            
         </section>
     </main>
     <footer class="page-footer"> 
-        <div class="footer-nav navigation navigation--light">
-            <a class="logo" href="">Новости культуры</a>
-            <ul class="navigation__list">
+        <div class="footer-nav navigation">
+            <a class="logo logo--footer" href="">Новости культуры</a>
+            <ul class="navigation__list navigation__list--light">
                 <li class="navigation__item">
                     <a class="navigation__link" href="#">Новости</a>
                 </li>
@@ -142,17 +147,17 @@
         </div>
         <ul class="social">
             <li class="social__item">
-                <a class="social__link" href="">
+                <a class="social__link" href="#">
                     <img class="social__icon" src="img/instagram_icon.svg" alt="Instagram" width="23" height="24">
                 </a>
             </li>
             <li class="social__item">
-                <a class="social__link" href="">
+                <a class="social__link" href="#">
                     <img class="social__icon" src="img/facebook_icon.svg" alt="Facebook" width="12" height="22">
                 </a>
             </li>
             <li class="social__item">
-                <a class="social__link" href="">
+                <a class="social__link" href="#">
                     <img class="social__icon" src="img/twitter_icon.svg" alt="Twitter" width="22" height="18">
                 </a>
             </li>
