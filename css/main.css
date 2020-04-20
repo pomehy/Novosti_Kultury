@@ -31,14 +31,15 @@ a:hover {
 }
 
 .logo {    
-    font-size: 35px;
+    
     font-family: 'Playfair Display', serif;
     font-weight: 900;    
     letter-spacing: 1px;
     color: rgb(0,0,0);     
 }
 
-.logo--top {
+.logo--header {
+    font-size: 35px;
     margin-top: 60px; 
 }
 
@@ -92,7 +93,7 @@ a:hover {
 .reviews {
     width: 1170px;
     margin: 0 auto;
-    padding: 44px 0 50px 0;    
+    padding: 44px 0 51px 0;    
 }
 
 .reviews__title {
@@ -126,4 +127,123 @@ a:hover {
     font-size: 14px;
     line-height: 150%;
     margin: 0;
+}
+
+.promo {
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.promo__title {
+    font-size: 17px; 
+    letter-spacing: 2px;  
+    text-transform: uppercase; 
+    margin-bottom: 0;
+}
+
+.promo__list {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 0;
+    list-style: none;
+    width: 370px;
+    text-align: center;
+}
+
+.promo__item h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.promo__item p {
+    font-size: 14px;
+    line-height: 150%;
+    margin: 0;
+    height: 63px;
+}
+
+.promo__item span {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: rgba(0,0,0, 0.2);
+}
+
+.promo__button {
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    height: 47px;
+    background-color: #FF7931;
+}
+
+.promo__link {
+    display: flex;   
+    flex-grow: 1;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;    
+}
+
+.page-footer {
+    background-color: #575757;
+    padding-top: 26px;
+    padding-bottom: 46px;
+    margin: 0 auto;    
+}
+
+.footer-nav {
+    border-bottom: 1px solid #ffffff;
+
+}
+.logo--footer {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.navigation__list--light a {
+    color: #ffffff;
+}
+
+.navigation__list--light a:hover {
+    color: #FF7931;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    list-style: none;    
+}
+
+.social__item {    
+    display: flex;
+    width: 47px;
+    height: 47px;
+    background-color: #ffffff;
+    margin: 42px 7px 0px 7px;
+}
+
+.social__item:hover {    
+    background-color: #FF7931;
+}
+
+.social__link {
+    display: flex;
+    flex-grow: 1;
+}
+
+.social__icon {
+    display: block;
+    margin: auto;
 }
