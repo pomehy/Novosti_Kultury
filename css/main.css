@@ -35,7 +35,7 @@ a:hover {
     font-family: 'Playfair Display', serif;
     font-weight: 900;    
     letter-spacing: 1px;
-    color: rgb(0,0,0)
+    color: rgb(0,0,0);     
 }
 
 .logo--top {
@@ -63,3 +63,67 @@ a:hover {
     letter-spacing: 2px;
 }
 
+.pic-icon {
+    position: absolute;
+}
+.main-news {  
+    position: relative;  
+    display: flex;
+    flex-direction: column; 
+    align-items: center;       
+}
+
+.main-news__title {
+    position: absolute;
+    font-size: 72px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.main-news__description {
+    position: absolute;
+    color: #ffffff;
+    margin-bottom: 48px;
+}
+
+
+
+.reviews {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 44px 0 50px 0;    
+}
+
+.reviews__title {
+    font-size: 17px;
+    letter-spacing: 2px;    
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+.reviews__list {
+    display: flex;    
+    padding: 0;
+    list-style: none;
+    justify-content: space-between;
+       
+}
+.reviews__item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 370px;
+}
+
+.reviews__link {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 23px;
+    color: rgb(0,0,0);
+}
+
+.reviews__text {
+    font-size: 14px;
+    line-height: 150%;
+    margin: 0;
+}
